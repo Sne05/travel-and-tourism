@@ -1,0 +1,839 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WanderWay Travels | Explore the World</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <i class="fas fa-earth-americas"></i>
+            <span>Wander<span class="logo-highlight">Way</span></span>
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="packages.html">Packages</a>
+            <a href="about.html">About Us</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="booking.html" class="nav-btn">Book Now</a>
+
+    </header>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-tag">
+                <i class="fas fa-compass"></i>
+                DISCOVER THE WORLD WITH US
+            </span>
+
+            <h1>
+                Explore the World,
+                <span>One Journey</span> at a Time.
+            </h1>
+
+            <p>
+                Discover breathtaking destinations, unforgettable
+                experiences and incredible adventures with WanderWay.
+                Your next journey starts here.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="destinations.html" class="primary-btn">
+                    Explore Destinations
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="packages.html" class="secondary-btn">
+                    View Packages
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div>
+                    <h3>50+</h3>
+                    <span>Destinations</span>
+                </div>
+
+                <div>
+                    <h3>10K+</h3>
+                    <span>Happy Travellers</span>
+                </div>
+
+                <div>
+                    <h3>5+</h3>
+                    <span>Years Experience</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Search Section -->
+
+    <section class="search-section">
+
+        <div class="search-container">
+
+            <div class="search-heading">
+                <h2>Plan Your Next Trip</h2>
+                <p>Find the perfect destination for your next adventure.</p>
+            </div>
+
+            <form class="search-form" action="packages.html">
+
+                <div class="search-field">
+                    <label for="destination">Destination</label>
+
+                    <div class="search-input">
+                        <i class="fas fa-location-dot"></i>
+
+                        <input
+                            type="text"
+                            id="destination"
+                            name="destination"
+                            placeholder="Where do you want to go?"
+                        >
+                    </div>
+                </div>
+
+
+                <div class="search-field">
+                    <label for="travel-date">Travel Date</label>
+
+                    <div class="search-input">
+                        <i class="fas fa-calendar-days"></i>
+
+                        <input
+                            type="date"
+                            id="travel-date"
+                            name="date"
+                        >
+                    </div>
+                </div>
+
+
+                <div class="search-field">
+                    <label for="travellers">Travellers</label>
+
+                    <div class="search-input">
+                        <i class="fas fa-users"></i>
+
+                        <select id="travellers" name="travellers">
+                            <option value="1">1 Traveller</option>
+                            <option value="2">2 Travellers</option>
+                            <option value="3">3 Travellers</option>
+                            <option value="4">4 Travellers</option>
+                            <option value="5">5+ Travellers</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="search-btn">
+                    <i class="fas fa-search"></i>
+                    Search Trips
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Popular Destinations -->
+
+    <section class="destinations-section">
+
+        <div class="section-heading">
+
+            <span class="section-tag">EXPLORE THE WORLD</span>
+
+            <h2>Popular Destinations</h2>
+
+            <p>
+                From peaceful beaches to breathtaking mountains,
+                discover places that make every journey special.
+            </p>
+
+        </div>
+
+
+        <div class="destination-grid">
+
+            <div class="destination-card">
+
+                <div class="destination-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=85"
+                        alt="Bali tropical beach"
+                    >
+
+                    <span class="destination-price">From ₹18,999</span>
+                </div>
+
+                <div class="destination-info">
+                    <span><i class="fas fa-location-dot"></i> Indonesia</span>
+                    <h3>Bali</h3>
+                    <p>Beautiful beaches, temples and tropical escapes.</p>
+                    <a href="destinations.html">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="destination-card">
+
+                <div class="destination-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=85"
+                        alt="Italian coastal village"
+                    >
+
+                    <span class="destination-price">From ₹32,999</span>
+                </div>
+
+                <div class="destination-info">
+                    <span><i class="fas fa-location-dot"></i> Italy</span>
+                    <h3>Italy</h3>
+                    <p>Historic cities, delicious food and stunning views.</p>
+                    <a href="destinations.html">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="destination-card">
+
+                <div class="destination-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=85"
+                        alt="Maldives tropical resort"
+                    >
+
+                    <span class="destination-price">From ₹25,999</span>
+                </div>
+
+                <div class="destination-info">
+                    <span><i class="fas fa-location-dot"></i> Maldives</span>
+                    <h3>Maldives</h3>
+                    <p>Crystal-clear waters and relaxing island stays.</p>
+                    <a href="destinations.html">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="destination-card">
+
+                <div class="destination-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=85"
+                        alt="Santorini Greece"
+                    >
+
+                    <span class="destination-price">From ₹39,999</span>
+                </div>
+
+                <div class="destination-info">
+                    <span><i class="fas fa-location-dot"></i> Greece</span>
+                    <h3>Santorini</h3>
+                    <p>Whitewashed houses and unforgettable sunsets.</p>
+                    <a href="destinations.html">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="destination-card">
+
+                <div class="destination-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=85"
+                        alt="Swiss mountain landscape"
+                    >
+
+                    <span class="destination-price">From ₹45,999</span>
+                </div>
+
+                <div class="destination-info">
+                    <span><i class="fas fa-location-dot"></i> Switzerland</span>
+                    <h3>Switzerland</h3>
+                    <p>Snowy mountains and beautiful alpine villages.</p>
+                    <a href="destinations.html">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="destination-card">
+
+                <div class="destination-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=85"
+                        alt="Dubai city skyline"
+                    >
+
+                    <span class="destination-price">From ₹21,999</span>
+                </div>
+
+                <div class="destination-info">
+                    <span><i class="fas fa-location-dot"></i> UAE</span>
+                    <h3>Dubai</h3>
+                    <p>Luxury shopping, desert adventures and city life.</p>
+                    <a href="destinations.html">
+                        Explore More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="section-button">
+            <a href="destinations.html" class="outline-btn">
+                View All Destinations
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Featured Packages -->
+
+    <section class="packages-section">
+
+        <div class="section-heading">
+
+            <span class="section-tag">TRAVEL YOUR WAY</span>
+
+            <h2>Featured Tour Packages</h2>
+
+            <p>
+                Carefully planned travel experiences
+                designed to make your holidays memorable.
+            </p>
+
+        </div>
+
+
+        <div class="package-grid">
+
+            <div class="package-card">
+
+                <div class="package-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=85"
+                        alt="Bali holiday package"
+                    >
+
+                    <span class="package-label">BEST SELLER</span>
+                </div>
+
+                <div class="package-info">
+
+                    <div class="package-meta">
+                        <span><i class="far fa-clock"></i> 5 Days / 4 Nights</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Bali</span>
+                    </div>
+
+                    <h3>Bali Tropical Escape</h3>
+
+                    <p>
+                        Enjoy beautiful beaches, island tours
+                        and unforgettable tropical experiences.
+                    </p>
+
+                    <div class="package-bottom">
+                        <div>
+                            <small>Starting from</small>
+                            <h4>₹18,999 <span>/ person</span></h4>
+                        </div>
+
+                        <a href="packages.html">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="package-card">
+
+                <div class="package-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=85"
+                        alt="Switzerland tour package"
+                    >
+
+                    <span class="package-label">POPULAR</span>
+                </div>
+
+                <div class="package-info">
+
+                    <div class="package-meta">
+                        <span><i class="far fa-clock"></i> 7 Days / 6 Nights</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Switzerland</span>
+                    </div>
+
+                    <h3>Swiss Alpine Adventure</h3>
+
+                    <p>
+                        Discover scenic mountain landscapes,
+                        charming villages and peaceful lakes.
+                    </p>
+
+                    <div class="package-bottom">
+                        <div>
+                            <small>Starting from</small>
+                            <h4>₹45,999 <span>/ person</span></h4>
+                        </div>
+
+                        <a href="packages.html">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="package-card">
+
+                <div class="package-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=85"
+                        alt="Dubai holiday package"
+                    >
+
+                    <span class="package-label">GREAT VALUE</span>
+                </div>
+
+                <div class="package-info">
+
+                    <div class="package-meta">
+                        <span><i class="far fa-clock"></i> 4 Days / 3 Nights</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Dubai</span>
+                    </div>
+
+                    <h3>Dubai City Discovery</h3>
+
+                    <p>
+                        Experience modern attractions,
+                        desert safaris and exciting city tours.
+                    </p>
+
+                    <div class="package-bottom">
+                        <div>
+                            <small>Starting from</small>
+                            <h4>₹21,999 <span>/ person</span></h4>
+                        </div>
+
+                        <a href="packages.html">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="section-button">
+            <a href="packages.html" class="outline-btn">
+                Explore All Packages
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Why Choose Us -->
+
+    <section class="why-section">
+
+        <div class="why-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1000&q=85"
+                alt="Beautiful lake and mountain travel destination"
+            >
+
+            <div class="experience-box">
+                <h3>5+</h3>
+                <p>Years of Travel Experience</p>
+            </div>
+
+        </div>
+
+
+        <div class="why-content">
+
+            <span class="section-tag">WHY WANDERWAY?</span>
+
+            <h2>Making Every Journey Special</h2>
+
+            <p>
+                We believe travelling is more than visiting places.
+                It is about creating memories, discovering cultures
+                and experiencing something new.
+            </p>
+
+
+            <div class="why-list">
+
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-earth-americas"></i>
+                    </div>
+
+                    <div>
+                        <h3>Wide Range of Destinations</h3>
+                        <p>
+                            Explore exciting destinations
+                            across the world.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+
+                    <div>
+                        <h3>Affordable Travel Packages</h3>
+                        <p>
+                            Enjoy memorable experiences
+                            with budget-friendly options.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+
+                    <div>
+                        <h3>Personalised Support</h3>
+                        <p>
+                            Get assistance throughout
+                            your travel planning journey.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-shield-heart"></i>
+                    </div>
+
+                    <div>
+                        <h3>Comfortable Experiences</h3>
+                        <p>
+                            Thoughtfully planned trips
+                            with your comfort in mind.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="about.html" class="primary-btn">
+                Discover More
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section class="testimonials-section">
+
+        <div class="section-heading">
+
+            <span class="section-tag">TRAVELLER STORIES</span>
+
+            <h2>What Our Travellers Say</h2>
+
+            <p>
+                The best part of our journey is hearing
+                about the wonderful memories our travellers create.
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>
+                    "Our Bali trip was absolutely wonderful!
+                    Everything was organised perfectly,
+                    and we had an amazing experience."
+                </p>
+
+                <div class="customer-info">
+                    <div class="customer-avatar">AS</div>
+
+                    <div>
+                        <h4>Aditya Sharma</h4>
+                        <span>Bali Traveller</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>
+                    "The Switzerland tour was unforgettable.
+                    Beautiful locations, comfortable stays
+                    and a smooth travel experience."
+                </p>
+
+                <div class="customer-info">
+                    <div class="customer-avatar">PK</div>
+
+                    <div>
+                        <h4>Priya Kulkarni</h4>
+                        <span>Switzerland Traveller</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>
+                    "WanderWay made our family holiday
+                    stress-free. The package was well planned
+                    and offered great value."
+                </p>
+
+                <div class="customer-info">
+                    <div class="customer-avatar">RM</div>
+
+                    <div>
+                        <h4>Rahul Mehta</h4>
+                        <span>Dubai Traveller</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="section-button">
+            <a href="testimonials.html" class="outline-btn">
+                Read More Reviews
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Booking CTA -->
+
+    <section class="booking-cta">
+
+        <div class="booking-cta-content">
+
+            <span>YOUR NEXT ADVENTURE AWAITS</span>
+
+            <h2>Let's Make Your Travel Dreams Come True</h2>
+
+            <p>
+                Start planning your next unforgettable journey
+                with WanderWay Travels.
+            </p>
+
+            <a href="booking.html" class="primary-btn">
+                Book Your Trip
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo footer-logo">
+                    <i class="fas fa-earth-americas"></i>
+                    <span>Wander<span class="logo-highlight">Way</span></span>
+                </a>
+
+                <p>
+                    Discover the world, experience new cultures
+                    and create unforgettable memories with
+                    WanderWay Travels.
+                </p>
+
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="packages.html">Tour Packages</a>
+                <a href="about.html">About Us</a>
+                <a href="testimonials.html">Testimonials</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Useful Links</h3>
+
+                <a href="booking.html">Book a Trip</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="packages.html">Special Offers</a>
+                <a href="destinations.html">Travel Guide</a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>Contact Us</h3>
+
+                <p>
+                    <i class="fas fa-location-dot"></i>
+                    Mumbai, Maharashtra, India
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    +91 98765 43210
+                </p>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    hello@wanderway.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 WanderWay Travels. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+</body>
+</html>
